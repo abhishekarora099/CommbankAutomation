@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 12, Time elapsed: 28.454 s <<< FAILURE! - in TestSuite
+selectingFiltersInDashboard(com.siemens.APMLSA.automation.tests.AllTests)  Time elapsed: 1.335 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-rka-c102="" type="button" class="btn btn-outline-secondary rounded-0 sie-btn-cancel" aria-expanded="false">...</button> is not clickable at point (117, 427). Other element would receive the click: <div class="ui-blockui-document ui-blockui ui-widget-overlay" style="display: block; z-index: 100001002;">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MD2PYZ3C', ip: '192.168.219.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\z0046zwe\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e6793f647517d2cf8cb1d16b36e8ba48
+	at com.siemens.APMLSA.automation.tests.AllTests.selectingFiltersInDashboard(AllTests.java:48)
+
+tearDown(com.siemens.APMLSA.automation.tests.AllTests)  Time elapsed: 5.268 s  <<< FAILURE!
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at com.siemens.APMLSA.automation.tests.AllTests.tearDown(AllTests.java:146)
+

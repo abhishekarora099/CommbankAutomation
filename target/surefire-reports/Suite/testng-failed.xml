@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Suite]">
+  <test name="Test APMLSA(failed)">
+    <classes>
+      <class name="com.siemens.APMLSA.automation.tests.AllTests">
+        <methods>
+          <include name="SystemConfig"/>
+          <include name="initializeDriver"/>
+          <include name="testInitialize"/>
+          <include name="extentLoggerInitializer"/>
+          <include name="GoldenBatchParameters"/>
+          <include name="UserConfig"/>
+          <include name="selectingFiltersInDashboard"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.siemens.APMLSA.automation.tests.AllTests -->
+    </classes>
+  </test> <!-- Test APMLSA(failed) -->
+</suite> <!-- Failed suite [Suite] -->

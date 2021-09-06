@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.454" tests="15" errors="0" skipped="12" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\z0046zwe\Downloads\git\pharma-layer-separation\Automation Framework\SeleniumAutomation\target\test-classes;C:\Users\z0046zwe\Downloads\git\pharma-layer-separation\Automation Framework\SeleniumAutomation\target\classes;C:\Users\z0046zwe\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\z0046zwe\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\z0046zwe\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\z0046zwe\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\z0046zwe\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\z0046zwe\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\z0046zwe\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\z0046zwe\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\z0046zwe\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\z0046zwe\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\z0046zwe\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\z0046zwe\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\z0046zwe\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\z0046zwe\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\z0046zwe\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\z0046zwe\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\z0046zwe\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\z0046zwe\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\z0046zwe\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\z0046zwe\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\z0046zwe\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\z0046zwe\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\z0046zwe\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\z0046zwe\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\z0046zwe\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\z0046zwe\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\z0046zwe\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\z0046zwe\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\z0046zwe\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\z0046zwe\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\7.4.1.jre8\mssql-jdbc-7.4.1.jre8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\z0046zwe\AppData\Local\Temp\surefire6479732741349493479\surefirebooter5525523454367526272.jar C:\Users\z0046zwe\AppData\Local\Temp\surefire6479732741349493479 2020-08-25T11-35-32_877-jvmRun1 surefire2312152486130990296tmp surefire_03295545234318159039tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\z0046zwe\Downloads\git\pharma-layer-separation\Automation Framework\SeleniumAutomation\target\test-classes;C:\Users\z0046zwe\Downloads\git\pharma-layer-separation\Automation Framework\SeleniumAutomation\target\classes;C:\Users\z0046zwe\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\z0046zwe\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\z0046zwe\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\z0046zwe\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\z0046zwe\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\z0046zwe\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\z0046zwe\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\z0046zwe\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\z0046zwe\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\z0046zwe\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\z0046zwe\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\z0046zwe\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\z0046zwe\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\z0046zwe\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\z0046zwe\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\z0046zwe\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\z0046zwe\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\z0046zwe\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\z0046zwe\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\z0046zwe\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\z0046zwe\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\z0046zwe\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\z0046zwe\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\z0046zwe\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\z0046zwe\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\z0046zwe\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\z0046zwe\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\z0046zwe\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\z0046zwe\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\z0046zwe\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\z0046zwe\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\z0046zwe\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\7.4.1.jre8\mssql-jdbc-7.4.1.jre8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\z0046zwe"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="C:\Users\z0046zwe\Downloads\git\pharma-layer-separation\Automation Framework\SeleniumAutomation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\z0046zwe\AppData\Local\Temp\surefire6479732741349493479\surefirebooter5525523454367526272.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="z0046zwe"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\z0046zwe\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\z0046zwe\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="C:\Users\z0046zwe\Downloads\git\pharma-layer-separation\Automation Framework\SeleniumAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\bin\ia32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_221\bin;C:\Program Files (x86)\Java\jre1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\z0046zwe\Downloads\node-v12.18.1-win-x64;C:\Users\z0046zwe\Downloads\node-v12.18.1-win-x64\node_modules\npm\bin;C:\Users\z0046zwe\AppData\Local\Android\Sdk\tools\bin;C:\Users\z0046zwe\AppData\Local\Android\Sdk\platform-tools;C:\Users\z0046zwe\AppData\Local\Android\Sdk\tools;C:\Users\z0046zwe\.android\avd;C:\Users\z0046zwe\.android;C:\Users\z0046zwe\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\z0046zwe\AppData\Local\Microsoft\WindowsApps;;C:\Users\z0046zwe\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testLogin" classname="com.siemens.APMLSA.automation.tests.AllTests" time="11.174"/>
+  <testcase name="selectingFiltersInDashboard" classname="com.siemens.APMLSA.automation.tests.AllTests" time="1.335">
+    <failure message="element click intercepted: Element &lt;button _ngcontent-rka-c102=&quot;&quot; type=&quot;button&quot; class=&quot;btn btn-outline-secondary rounded-0 sie-btn-cancel&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (117, 427). Other element would receive the click: &lt;div class=&quot;ui-blockui-document ui-blockui ui-widget-overlay&quot; style=&quot;display: block; z-index: 100001002;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=84.0.4147.125)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MD2PYZ3C&apos;, ip: &apos;192.168.219.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\z0046zwe\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e6793f647517d2cf8cb1d16b36e8ba48" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-rka-c102="" type="button" class="btn btn-outline-secondary rounded-0 sie-btn-cancel" aria-expanded="false">...</button> is not clickable at point (117, 427). Other element would receive the click: <div class="ui-blockui-document ui-blockui ui-widget-overlay" style="display: block; z-index: 100001002;">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MD2PYZ3C', ip: '192.168.219.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\z0046zwe\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e6793f647517d2cf8cb1d16b36e8ba48
+	at com.siemens.APMLSA.automation.tests.AllTests.selectingFiltersInDashboard(AllTests.java:48)
+]]></failure>
+    <system-out><![CDATA[onTestStart -->> selectingFiltersInDashboard
+onTestFailure -->> selectingFiltersInDashboard
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.siemens.APMLSA.automation.tests.AllTests" time="5.268">
+    <failure message="Unexpected result for screenshot command: null" type="java.lang.RuntimeException">java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at com.siemens.APMLSA.automation.tests.AllTests.tearDown(AllTests.java:146)
+</failure>
+    <system-err><![CDATA[[1598335567.444][WARNING]: screenshot failed, retrying disconnected: received Inspector.detached event
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+    <system-out><![CDATA[onFinish -->> Test APMLSA
+]]></system-out>
+  </testcase>
+  <testcase name="extentLoggerInitializer" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="extentLoggerInitializer" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="extentLoggerInitializer" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="GoldenBatchParameters" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+    <system-out><![CDATA[onTestStart -->> GoldenBatchParameters
+onTestSkipped -->> GoldenBatchParameters
+]]></system-out>
+  </testcase>
+  <testcase name="SystemConfig" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+    <system-out><![CDATA[onTestStart -->> SystemConfig
+onTestSkipped -->> SystemConfig
+]]></system-out>
+  </testcase>
+  <testcase name="UserConfig" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+    <system-out><![CDATA[onTestStart -->> UserConfig
+onTestSkipped -->> UserConfig
+]]></system-out>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClosure" classname="com.siemens.APMLSA.automation.tests.AllTests" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

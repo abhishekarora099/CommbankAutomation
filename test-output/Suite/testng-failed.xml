@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]">
+  <test name="Test HomeLoanRepayment(failed)">
+    <classes>
+      <class name="com.commbank.HomeLoanRepayment.automation.tests.AllTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testClosure"/>
+          <include name="extentLoggerInitializer"/>
+          <include name="tearDown"/>
+          <include name="HomeLoanRepaymentsScenarios"/>
+          <include name="testInitialize"/>
+          <include name="closeBrowser"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- com.commbank.HomeLoanRepayment.automation.tests.AllTests -->
+    </classes>
+  </test> <!-- Test HomeLoanRepayment(failed) -->
+</suite> <!-- Failed suite [Suite] -->
